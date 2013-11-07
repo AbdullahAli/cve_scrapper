@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      td.alignment {
+        text-align: center;
+        width: 20px;
+      }
+
+      td.cve_score_1 {
+        background-color: #33FF00;
+      }
+
+      td.cve_score_2 {
+        background-color: #66FF00;
+      }
+
+      td.cve_score_3 {
+        background-color: #99FF00;
+      }
+
+      td.cve_score_4 {
+        background-color: #CCFF00;
+      }
+
+      td.cve_score_5 {
+        background-color: #FFFF00;
+      }
+
+      td.cve_score_6 {
+        background-color: #FFCC00;
+      }
+
+      td.cve_score_7 {
+        background-color: #FF9900;
+      }
+
+      td.cve_score_8 {
+        background-color: #FF6600;
+      }
+
+      td.cve_score_9 {
+        background-color: #FF3300;
+      }
+
+      td.cve_score_10 {
+        background-color: #FF0000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <% (1..10).to_a.reverse.each do |counter| %>
+        <tr><td class="<%= "cve_score_#{counter} alignment" %>"><%= "#{counter}" %><td></tr>
+      <% end %>
+    </table>
+  </body>
+</html>
