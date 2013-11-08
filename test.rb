@@ -1,48 +1,92 @@
-require 'atomic'
+require 'redis'
+require 'hpricot'
+require 'net/http'
 
-class Script
 
-  COUNTER_CAP = 50
+class ApiThrottler
+  attr_accessor :redis, :threads
 
-  @@urls = *(1..100)
-  @@counter = Atomic.new(0)
+  #need to @redis.flushdb
 
-  def start_up
-    @@urls.each do |url|
-      try_fetch_url(url)
-    end
+  GLOBAL = "counter_global"
+  MAXIMUM_CALLS_PER_SECOND = 2
+
+  def initialize
+    @redis = Redis.new
+    @redis.set(GLOBAL, 0)
+    @threads = []
   end
 
-  def try_fetch_url(url)
-    if @@counter.value < COUNTER_CAP
-      increment_counter
-      spawn_thread(url)
+  def local
+    "counter_sec_#{Time.now.to_i}"
+  end
+
+  def try_fetch(foo)
+    if @redis.get(GLOBAL).to_i <= MAXIMUM_CALLS_PER_SECOND && @redis.incr(local).to_i <= MAXIMUM_CALLS_PER_SECOND
+      perform(foo)
     else
       sleep(1)
-      try_fetch_url(url)
+      try_fetch(foo)
     end
   end
 
-  def spawn_thread(url)
-    Thread.new do
-      perform_job(url)
-      decrement_counter
-    end
+  def perform(foo)
+    @threads << Thread.new(foo) {
+      puts @redis.get(GLOBAL).to_i
+      @redis.incr(GLOBAL)
+      # File.open('some-file.txt', 'a') { |f| f.write("#{url} \n") }
+      foo.call
+      @redis.decr(GLOBAL)
+    }
   end
 
-  def perform_job(url)
-    File.open('some-file.txt', 'a') { |f| f.write("#{url} \n") }
-  end
-
-  def increment_counter
-    @@counter.try_update {|v| v + 1}
-  end
-
-
-  def decrement_counter
-    @@counter.try_update {|v| v - 1}
-  end
+  # (1..1000).each do |i|
+  #   try_fetch(i)
+  # end
 end
 
-script = Script.new
-script.start_up
+class CVEHarvester
+  attr_accessor :host, :page, :api_throttler
+
+  def initialize
+    @host = "www.cvedetails.com"
+    @page = "/vulnerability-list.php?page=%s&cvssscoremin=0&cvssscoremax=10"
+    @api_throttler = ApiThrottler.new
+  end
+
+  def get_data
+    source = Net::HTTP.get(@host, @page % 1)
+    doc = Hpricot(source)
+    number_of_pages = doc.search("//*[@id='pagingb']/a").last.to_plain_text.to_i
+
+    (1..1).each do |page_number|
+
+      foo = Proc.new {
+        source = Net::HTTP.get(@host, @page % page_number)
+        doc = Hpricot(source)
+
+        table = doc.search("//*[@id='vulnslisttable']")
+
+        table.search('/tr').each_with_index do |row, index|
+          if index.odd?
+            row.search('/td').each do |column|
+              puts column.to_plain_text
+            end
+          end
+        end
+      }
+
+
+
+      api_throttler.try_fetch(foo)
+    end
+  end
+
+end
+
+
+harvester = CVEHarvester.new
+harvester.get_data
+harvester.api_throttler.threads.each {|t| t.join}
+
+# sleep(5)
