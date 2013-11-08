@@ -1,6 +1,7 @@
 require 'redis'
 require 'hpricot'
 require 'net/http'
+require 'csv'
 
 
 class ApiThrottler
@@ -32,7 +33,6 @@ class ApiThrottler
 
   def perform(foo)
     @threads << Thread.new(foo) {
-      puts @redis.get(GLOBAL).to_i
       @redis.incr(GLOBAL)
       # File.open('some-file.txt', 'a') { |f| f.write("#{url} \n") }
       foo.call
@@ -59,7 +59,7 @@ class CVEHarvester
     doc = Hpricot(source)
     number_of_pages = doc.search("//*[@id='pagingb']/a").last.to_plain_text.to_i
 
-    (1..1).each do |page_number|
+    (1..10).each do |page_number|
 
       foo = Proc.new {
         source = Net::HTTP.get(@host, @page % page_number)
@@ -67,17 +67,18 @@ class CVEHarvester
 
         table = doc.search("//*[@id='vulnslisttable']")
 
+
         table.search('/tr').each_with_index do |row, index|
+          row_data = []
           if index.odd?
             row.search('/td').each do |column|
-              puts column.to_plain_text
+              row_data << column.search('text()').to_s.strip
+              # puts column.search('text()').to_s.strip
             end
+            File.open('some-file.txt', 'a') { |f| f.write("#{row_data} \n") }
           end
         end
       }
-
-
-
       api_throttler.try_fetch(foo)
     end
   end
@@ -85,8 +86,8 @@ class CVEHarvester
 end
 
 
+i = Time.now
 harvester = CVEHarvester.new
 harvester.get_data
 harvester.api_throttler.threads.each {|t| t.join}
-
-# sleep(5)
+puts "#{Time.now - i}"
