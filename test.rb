@@ -13,9 +13,14 @@ class ApiThrottler
   MAXIMUM_CALLS_PER_SECOND = 2
 
   def initialize
-    @redis = Redis.new
-    @redis.set(GLOBAL, 0)
+    ObjectSpace.define_finalizer(self, self.class.method(:finalize).to_proc)
+    @@redis = Redis.new
+    @@redis.set(GLOBAL, 0)
     @threads = []
+  end
+
+  def self.finalize(id)
+    @@redis.flushdb
   end
 
   def local
@@ -23,7 +28,7 @@ class ApiThrottler
   end
 
   def try_fetch(foo)
-    if @redis.get(GLOBAL).to_i <= MAXIMUM_CALLS_PER_SECOND && @redis.incr(local).to_i <= MAXIMUM_CALLS_PER_SECOND
+    if @@redis.get(GLOBAL).to_i <= MAXIMUM_CALLS_PER_SECOND && @@redis.incr(local).to_i <= MAXIMUM_CALLS_PER_SECOND
       perform(foo)
     else
       sleep(1)
@@ -33,10 +38,10 @@ class ApiThrottler
 
   def perform(foo)
     @threads << Thread.new(foo) {
-      @redis.incr(GLOBAL)
+      @@redis.incr(GLOBAL)
       # File.open('some-file.txt', 'a') { |f| f.write("#{url} \n") }
       foo.call
-      @redis.decr(GLOBAL)
+      @@redis.decr(GLOBAL)
     }
   end
 
@@ -59,7 +64,7 @@ class CVEHarvester
     doc = Hpricot(source)
     number_of_pages = doc.search("//*[@id='pagingb']/a").last.to_plain_text.to_i
 
-    (1..10).each do |page_number|
+    (1..1).each do |page_number|
 
       foo = Proc.new {
         source = Net::HTTP.get(@host, @page % page_number)
@@ -75,7 +80,7 @@ class CVEHarvester
               row_data << column.search('text()').to_s.strip
               # puts column.search('text()').to_s.strip
             end
-            File.open('some-file.txt', 'a') { |f| f.write("#{row_data} \n") }
+            File.open('some-file.txt', 'a') { |f| f.write("#{row_data.to_csv}") }
           end
         end
       }

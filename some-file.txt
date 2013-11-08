@@ -1,50 +1,650 @@
-1 
-2 
-8 
-12 
-16 
-20 
-24 
-28 
-32 
-36 
-40 
-44 
-48 
-4 
-7 
-9 
-10 
-13 
-15 
-19 
-21 
-22 
-25 
-27 
-31 
-33 
-34 
-37 
-39 
-43 
-45 
-46 
-49 
-3 
-11 
-17 
-23 
-29 
-35 
-41 
-47 
-5 
-18 
-26 
-38 
-42 
-50 
-6 
-14 
-30 
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+1,CVE-2013-6349,"","",Exec Code,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+2,CVE-2013-6348,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+3,CVE-2013-6347,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+4,CVE-2013-6346,"","",CSRF,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+5,CVE-2013-6345,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+6,CVE-2013-6344,"","","",2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+7,CVE-2013-6289,79,"",XSS,2013-10-28,2013-10-29,4.3,None,Remote,Medium,Not required,None,Partial,None
+8,CVE-2013-6288,"","","",2013-10-28,2013-10-29,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+9,CVE-2013-6285,200,"",+Info,2013-10-27,2013-10-28,5.0,None,Remote,Low,Not required,Partial,None,None
+10,CVE-2013-6284,"","",Exec Code,2013-10-26,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+11,CVE-2013-6283,20,1,DoS Exec Code,2013-10-25,2013-10-28,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+12,CVE-2013-6281,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+13,CVE-2013-6280,79,"",XSS,2013-10-25,2013-10-25,4.3,None,Remote,Medium,Not required,None,Partial,None
+14,CVE-2013-6246,264,"",Bypass +Info,2013-10-23,2013-10-24,5.0,None,Remote,Low,Not required,Partial,None,None
+15,CVE-2013-6245,"","",Exec Code,2013-10-23,2013-10-30,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+16,CVE-2013-6244,"","","",2013-10-23,2013-10-30,5.0,None,Remote,Low,Not required,Partial,None,None
+17,CVE-2013-6243,89,"",Exec Code Sql,2013-10-23,2013-10-25,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+18,CVE-2013-6170,20,"",DoS,2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+19,CVE-2013-6169,310,"",+Info,2013-10-17,2013-10-18,4.3,None,Remote,Medium,Not required,None,None,Partial
+20,CVE-2013-6129,264,"","",2013-10-19,2013-10-21,7.5,None,Remote,Low,Not required,Partial,Partial,Partial
+21,CVE-2013-6128,264,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+22,CVE-2013-6127,22,1,Dir. Trav.,2013-10-25,2013-10-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial
+23,CVE-2013-6111,"","",XSS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+24,CVE-2013-6079,119,2,DoS Exec Code Overflow,2013-10-11,2013-10-15,7.2,None,Local,Low,Not required,Complete,Complete,Complete
+25,CVE-2013-6076,"","",DoS,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+26,CVE-2013-6075,"","",DoS Bypass,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+27,CVE-2013-6044,79,"",XSS,2013-10-04,2013-10-07,4.3,None,Remote,Medium,Not required,None,Partial,None
+28,CVE-2013-6027,119,"",Exec Code Overflow,2013-10-19,2013-10-21,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+29,CVE-2013-6026,264,"",Bypass,2013-10-19,2013-10-21,10.0,None,Remote,Low,Not required,Complete,Complete,Complete
+30,CVE-2013-6025,94,"","",2013-10-19,2013-10-30,4.0,None,Remote,Low,Single system,Partial,None,None
+31,CVE-2013-6023,"","",Dir. Trav.,2013-11-02,2013-11-02,0.0,None,???,???,???,???,???,???
+32,CVE-2013-6021,119,"",Exec Code Overflow,2013-10-19,2013-10-21,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete
+33,CVE-2013-6020,200,"",+Info,2013-10-27,2013-10-28,5.8,None,Remote,Medium,Not required,Partial,Partial,None
+34,CVE-2013-6019,79,"",XSS,2013-10-27,2013-10-28,4.3,None,Remote,Medium,Not required,None,Partial,None
+35,CVE-2013-6018,352,"",CSRF,2013-10-27,2013-10-28,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+36,CVE-2013-6016,20,"",DoS,2013-10-26,2013-10-28,7.8,None,Remote,Low,Not required,None,None,Complete
+37,CVE-2013-6015,20,"","",2013-10-17,2013-10-30,4.3,None,Remote,Medium,Not required,None,None,Partial
+38,CVE-2013-6014,200,"",+Info,2013-10-28,2013-10-29,7.8,None,Remote,Medium,Not required,Partial,None,Complete
+39,CVE-2013-6013,119,"",Exec Code Overflow,2013-10-17,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+40,CVE-2013-6012,287,"",Bypass,2013-10-28,2013-10-29,8.5,None,Remote,Medium,Single system,Complete,Complete,Complete
+41,CVE-2013-6011,20,"",DoS,2013-10-04,2013-10-07,7.8,None,Remote,Low,Not required,None,None,Complete
+42,CVE-2013-6010,79,"",XSS,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+43,CVE-2013-6009,94,"",Http R.Spl.,2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None
+44,CVE-2013-5979,22,"",Dir. Trav.,2013-10-02,2013-10-07,5.0,None,Remote,Low,Not required,Partial,None,None
+45,CVE-2013-5977,352,1,XSS CSRF,2013-11-01,2013-11-01,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+46,CVE-2013-5976,79,"",XSS,2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+47,CVE-2013-5975,264,"","",2013-10-01,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
+48,CVE-2013-5971,264,"",+Priv,2013-10-21,2013-10-30,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial
+49,CVE-2013-5970,20,"",DoS,2013-10-21,2013-10-30,7.1,None,Remote,Medium,Not required,None,None,Complete
+50,CVE-2013-5968,79,"",XSS,2013-10-28,2013-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None
