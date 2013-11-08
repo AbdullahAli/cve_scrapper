@@ -39,15 +39,10 @@ class ApiThrottler
   def perform(foo)
     @threads << Thread.new(foo) {
       @@redis.incr(GLOBAL)
-      # File.open('some-file.txt', 'a') { |f| f.write("#{url} \n") }
       foo.call
       @@redis.decr(GLOBAL)
     }
   end
-
-  # (1..1000).each do |i|
-  #   try_fetch(i)
-  # end
 end
 
 class CVEHarvester
@@ -64,7 +59,8 @@ class CVEHarvester
     doc = Hpricot(source)
     number_of_pages = doc.search("//*[@id='pagingb']/a").last.to_plain_text.to_i
 
-    (1..1).each do |page_number|
+    puts "total pages: #{number_of_pages}"
+    (1..number_of_pages).each do |page_number|
 
       foo = Proc.new {
         source = Net::HTTP.get(@host, @page % page_number)
