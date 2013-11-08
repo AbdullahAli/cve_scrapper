@@ -50,7 +50,7 @@ class CVEHarvester
 
   def initialize
     @host = "www.cvedetails.com"
-    @page = "/vulnerability-list.php?page=%s&cvssscoremin=0&cvssscoremax=10"
+    @page = "/vulnerability-list.php?vendor_id=0&product_id=0&version_id=0&page=%s&hasexp=0&opdos=0&opec=0&opov=0&opcsrf=0&opgpriv=0&opsqli=0&opxss=0&opdirt=0&opmemc=0&ophttprs=0&opbyp=0&opfileinc=0&opginf=0&cvssscoremin=0&cvssscoremax=10&year=0&month=0&cweid=0&order=1&trc=58293&sha=3cf9994d68386594f1283fc226cf51dad5fe72b8"
     @api_throttler = ApiThrottler.new
   end
 
@@ -60,10 +60,11 @@ class CVEHarvester
     number_of_pages = doc.search("//*[@id='pagingb']/a").last.to_plain_text.to_i
 
     puts "total pages: #{number_of_pages}"
-    (1..number_of_pages).each do |page_number|
+    (44..44).each do |page_number|
 
       foo = Proc.new {
         source = Net::HTTP.get(@host, @page % page_number)
+        puts "#{@page % page_number}"
         doc = Hpricot(source)
 
         table = doc.search("//*[@id='vulnslisttable']")
