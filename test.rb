@@ -60,11 +60,10 @@ class CVEHarvester
     number_of_pages = doc.search("//*[@id='pagingb']/a").last.to_plain_text.to_i
 
     puts "total pages: #{number_of_pages}"
-    (44..44).each do |page_number|
+    (1..number_of_pages).each do |page_number|
 
       foo = Proc.new {
         source = Net::HTTP.get(@host, @page % page_number)
-        puts "#{@page % page_number}"
         doc = Hpricot(source)
 
         table = doc.search("//*[@id='vulnslisttable']")
